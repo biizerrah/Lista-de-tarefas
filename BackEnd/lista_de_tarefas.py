@@ -1,11 +1,12 @@
 toDo = []
 
 def adicionar():
-    tarefa = input("Adicione a próxima tarefa: ")
+    tarefa = input("Adicione a próxima tarefa: ").lower()
     toDo.append({'tarefas':tarefa,'status':'em andamento'})
+    print("\n=========Nova tarefa adicionada!=========")
     return toDo
     
-def listar():
+def listar_tarefas():
     if len(toDo) == 0:
         print("Não há tarefas!")
     else:
@@ -15,21 +16,25 @@ def listar():
             print("\nA tarefa: ",tarefa['tarefas']," está: ",tarefa['status'])
         print("\n==========================================")
         
-def andamento():
-    concluida = input("Qual tarefa foi concluida? ")
+def marcar_concluida():
+    concluida = input("Qual tarefa foi concluida? ").lower()
     for tarefa in toDo:
         if concluida in tarefa['tarefas']:
             tarefa['status'] = 'concluida'
+    print("\n=========Tarefa concluida!=========")
             
-def remover():
-    removida = input("Qual a tarefa que deseja remover da lista? ")
-    for tarefa in toDo:
-        if removida in tarefa['tarefas']:
+def remover_uma_tarefa():
+    if len(toDo) == 0:
+        print("Não tarefas para serem exluidas!")
+    else:
+        removida = input("Qual a tarefa que deseja remover da lista? ").lower()
+        for tarefa in toDo:
+         if removida in tarefa['tarefas']:
             toDo.remove(tarefa)
-    print("\n=========Tarefa excluida!=========")
+        print("\n=========Tarefa excluida!=========")
        
     
-def limpar():
+def remover_tudo():
     toDo[:] = [tarefa for tarefa in toDo if tarefa['status'] != 'concluida']
     
             
@@ -51,13 +56,13 @@ while True:
     if opcao == '1':
         adicionar()
     elif opcao == '2':
-        listar()
+        listar_tarefas()
     elif opcao == '3':
-        andamento()
+        marcar_concluida()
     elif opcao == '4':
-        remover()
+        remover_uma_tarefa()
     elif opcao == '5':
-        limpar()
+        remover_tudo()
     elif opcao == '6':
         print("SAINDO")
         break
