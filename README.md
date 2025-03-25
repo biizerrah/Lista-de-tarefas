@@ -1,14 +1,15 @@
 # Lista de tarefas
 
-### Projeto feito para praticar os meus conhecimentos teoricos em lógica de programação. É uma lista de tarefas simples utilizando apenas python.
+Esse é um projeto de console construido em Python. É uma lista de tarefas que permite adicionar, listar, concluir, excluir uma tarefa especifica ou excluir todas as tarefas concluidas.
 
-#### Ele é composto por um menu com as opções que o usuário deseja realizar, como:
+## Configurações recomendadas
 
-- **Adicionar uma tarefa**
-- **Excluir uma tarefa (POR NOME)**
-- **Limpar a lista de tarefas (CONCLUÍDAS)**
-- **Listar todas as tarefas**
-- **Marcar uma tarefa como concluida (POR NOME)**
-- **Sair do programa**
+ - *No sistema operacional Windows o Python deve ser baixado. Para os demais sistemas operacionais ele já vem instalado como padrão. Faça o download para Windows [aqui](https://www.python.org/downloads/).*
 
-#### Para esse projeto uso a linha de comando, por isso basta fazer o clone do repositório e rodar no terminal. Uso a estrutura de repetição switch/case para o menu, um array de objetos para armazenar de forma estática as tarefas e seus status e uso a estrutura condicional  if/else para decidir o que fazer quando há e quando não há conteúdo na minha lista. 
+ - *Ferramenta de versionamento de código - [GIT](https://git-scm.com/downloads). É necessário configurar o git uma vez instalado para sua vinculação com o Git Hub. A documentação oficial pode ser acessada por esse link >> [Documentação Git](https://git-scm.com/docs).*
+
+ - *Conta no Git Hub para fazer o download do repositório por meio desse link >> [Repositório](https://github.com/biizerrah/Cadastro-de-Usuarios)* 
+
+ - *IDE para rodar o projeto. Recomendo o [Visual Studio Code](https://code.visualstudio.com/download)
+
+ ## Instruções de Uso
