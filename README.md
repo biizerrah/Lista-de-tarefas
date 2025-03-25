@@ -10,6 +10,8 @@ Esse é um projeto de console construido em Python. É uma lista de tarefas que 
 
  - *Conta no Git Hub para fazer o download do repositório por meio desse link >> [Repositório](https://github.com/biizerrah/Cadastro-de-Usuarios)* 
 
- - *IDE para rodar o projeto. Recomendo o [Visual Studio Code](https://code.visualstudio.com/download)
+ - *IDE para rodar o projeto. Recomendo o [Visual Studio Code](https://code.visualstudio.com/download)*
 
  ## Instruções de Uso
+
+ Baixe o projeto nesse repositório >>> [Aqui](https://github.com/biizerrah/Lista-de-tarefas).
