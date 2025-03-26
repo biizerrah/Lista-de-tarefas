@@ -15,3 +15,10 @@ Esse é um projeto de console construido em Python. É uma lista de tarefas que 
  ## Instruções de Uso
 
  Baixe o projeto nesse repositório >>> [Aqui](https://github.com/biizerrah/Lista-de-tarefas).
+
+ *Ao executar o projeto é possivel...*
+  - 1 > Adicionar uma nova tarefa à lista
+  - 2 > Listar todas as tarefas cada uma com seu status correspondente 
+  - 3 > Marcar uma tarefa como concluida. Basta digitar a tarefa desejada
+  - 4 > Deletar qualquer tarefa por nome
+  - 5 > Deletar todas as tarefas concluidas
